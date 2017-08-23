@@ -7,8 +7,8 @@ valor_x = float(input('Inserte el valor de "x": '))
 valor_y = float(input('Inserte el valor de "y": '))
 
 magnitud = ((valor_x ** 2) + (valor_y ** 2)) ** 0.5
-import math
-angulo = math.atan2(valor_y,valor_x)
+from math import *
+angulo =  degrees(atan2(valor_y,valor_x))
 
 print ("x: ", valor_x, """
 y: """, valor_y, """
